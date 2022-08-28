@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home</title>
+        <title>Generous Kitchen</title>
         <link rel="icon" href="media/favicon.ico">
 
         <!--STYLES-->
@@ -29,6 +29,8 @@
         </div>
         <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
 
+        <div id="header"><h1>Generous Kitchen</h1></div>
+
         <div id="landing">
            <div class="slideshowContainer">
             <div class="slideshowWrapper">
@@ -38,6 +40,66 @@
             </div>
             
            </div>
+        </div>
+
+        <div id="programs-join">
+            <div id="programs">
+                <h1>Programs</h1>
+                <p>Generous Kitchen is achieving more with our initiatives than ever before. 
+                    We work on many exciting projects to help improve the lives of others, 
+                    and are very proud of the progress we continue to make. We have partnered 
+                    with local food kitchens and companies to distribute resources that vary 
+                    from sanitary products to nonperishables for those who are in need.</p>
+                    <br><br>
+                <div id="programsGrid">
+                    <div class="program">
+                        <h2>COVID-19 Vaccines</h2>
+                    </div>
+                    <div class="program">
+                        <h2>Food Drives</h2>
+                    </div>
+                    <div class="program">
+                        <h2>Educational Resources</h2>
+                    </div>
+                    <div class="program">
+                        <h2>IndoChatPals</h2>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="join">
+                <h1>Join As a Volunteer</h1>
+                <p>Generous Kitchen is a student-led initiative that focuses on providing 
+                    food to all who are in need throughout Indonesia. We also aim to bring 
+                    awareness to child malnutrition and the importance of food in a 
+                    hunger-driven world. </p><br>
+                <p>If you would like to help support us in our goal of helping future generations 
+                    and fighting hunger, please consider volunteering and applying to a leadership 
+                    position or as part of our team. These roles vary from helping us deliver goods 
+                    to malnourished children to writing publications for our blog. We will provide 
+                    certificates as proof of your volunteer service upon request. </p>
+                <br><br>
+                <a href="#" class="linkBtn">JOIN NOW</a>
+                <div id="quote1">
+								
+                </div>
+                <script type="text/javascript">
+                    var i=0, text;
+                    text = "To a hungry person, every bitter food is sweet. When the preferable is not available, then the available becomes the prefeerable."
+                        function typing() {
+                        if(i<text.length){
+                        document.getElementById("quote1").innerHTML += text.charAt(i);
+                        i++;
+                        setTimeout(typing,30); /* duration of effect in milliseconds */
+                        }	
+                    }
+                typing ();
+                </script>
+            </div>
+        </div>
+
+        <div id="socials">
+
         </div>
 
 

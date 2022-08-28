@@ -1,8 +1,23 @@
 body{
     background: #1B5500;
     color:#FFFBEE;
+    font-family: sans-serif;
 }
-
+p{
+    line-height: 25px;
+    font-size: 16px;
+}
+.linkBtn{
+    text-decoration: none;
+    color:inherit;
+    padding:2% 5%;
+    border-radius:50px;
+    border:#FFFBEE 2px solid;
+}
+.linkBtn:hover{
+    background: #fffbee;
+    color:#1B5500;
+}
 
 /*NAVIGATION*/
 .sidenav {
@@ -46,25 +61,27 @@ body{
     .sidenav a {font-size: 18px;}
   }
 
-
+/*HEADER*/
+#header{
+    text-align:center;
+}
 
   /*SLIDESHOW*/
 #landing{
-    padding:10%;
+    padding:5% 10%;
+    padding-top:1%;
 }
 
 .slideshowContainer{
-    width: 60%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
+    width: 90%;
     overflow: hidden;
     border: 20px solid #ffffff;
-    border-radius: 8px;
+    border-radius: 4px;
+    margin:auto;
+    background: #FFFBEE;
 }
 .slideshowWrapper{
-    width: 90%;
+    width: 100%;
     display: flex;
     animation: slide 10s infinite;
 }
@@ -84,4 +101,48 @@ img{
     100%{
         transform: translateX(-300%);
     }
+}
+
+
+/*PROGRAMS AND JOIN*/
+#programs-join{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#programs{
+    background-color: #FFFBEE;
+    text-align: center;
+    color:black;
+    padding:6%;
+    padding-left:3%;
+}
+#programsGrid{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-gap:4%;
+}
+.program{
+    background:darkolivegreen;
+    color:#FFFBEE;
+    text-align:center;
+    padding:15%;
+    
+}
+#join{
+    text-align: center;
+    padding:6%;
+    margin-left:1%;
+    border: #fffbee 1px solid;
+}
+
+/*QUOTE 1*/
+#quote1{
+    margin-top:10%;
+    padding:5%;
+    background: #FFFBEE;
+    color:#1B5500;
+    height:80px;
+    font-size: 18px;
+    line-height: 30px;
 }
